@@ -1,0 +1,56 @@
+/* src/styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #282c34;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  color: white;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  margin: 5px;
+}
+
+.array-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 80vh;
+  max-height: 600px; /* Max height of the container */
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  position: relative;
+}
+
+.array-bar-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.array-bar {
+  width: 5px;
+  background-color: turquoise;
+  margin: 0 1px;
+}
